@@ -13,6 +13,7 @@ cabextract wmp11-windowsxp-x64-enu.exe -d wmp11
 PROTON_VERSION="Proton 9.0" protontricks -v 2191660 winxp
 ```
 
+（Press Ctrl+C when the installer has finished， killall -9 "$PROG" script to kill the proton processes）
 ```
 PROTON_VERSION="Proton 9.0" protontricks-launch --appid 2191660 wmp11/wmp11-64.exe
 
